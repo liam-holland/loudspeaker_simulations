@@ -7,7 +7,11 @@ authors = [
     { name = "liam-holland", email = "liam.holland96@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "electroacpy>=2025.7.1",
+    "gmsh>=4.15.2",
+    "marimo[recommended]>=0.25.1",
+]
 
 [project.scripts]
 loudspeaker-simulations = "loudspeaker_simulations:main"

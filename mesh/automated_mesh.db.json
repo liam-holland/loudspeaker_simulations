@@ -1,0 +1,33 @@
+{ "onelab":{
+  "creator":"Gmsh",
+  "date":"Mon Oct 26 16:56:26 2026",
+  "version":"1.3",
+  "parameters":[
+    { "type":"number", "name":"0Metamodel/Loop", "changedValue":31, "visible":false, "readOnly":false, "values":[ 0 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"string", "name":"GetDP/Action", "changedValue":0, "visible":false, "readOnly":false, "values":[ "compute" ] , "kind":"generic" },
+    { "type":"string", "name":"Gmsh/Action", "changedValue":0, "visible":false, "readOnly":false, "clients":{ "Gmsh":0 }, "values":[ "" ] , "kind":"generic" },
+    { "type":"string", "name":"Gmsh/Model absolute path", "changedValue":0, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ "C:\Users\Liam Holland\Documents\GitHub\loudspeaker_simulations\mesh\" ] , "kind":"generic" },
+    { "type":"number", "name":"Gmsh/Model dimension", "changedValue":1, "visible":false, "readOnly":true, "attributes":{ "Closed":"1" }, "clients":{ "Gmsh":0 }, "values":[ 2 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"string", "name":"Gmsh/Model name", "changedValue":0, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ ".\mesh\automated_mesh.msh" ] , "kind":"file" },
+    { "type":"string", "name":"Gmsh/MshFileName", "label":"Mesh name", "changedValue":31, "visible":true, "readOnly":false, "attributes":{ "Closed":"1" }, "clients":{ "Gmsh":0 }, "values":[ ".\mesh\automated_mesh.msh" ] , "kind":"file" },
+    { "type":"number", "name":"Gmsh/Number of physical groups", "changedValue":1, "visible":false, "readOnly":true, "attributes":{ "Closed":"1" }, "clients":{ "Gmsh":0 }, "values":[ 5 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"number", "name":"Gmsh/Physical group 1/Dimension", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ 2 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"string", "name":"Gmsh/Physical group 1/Name", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ "woofer" ] , "kind":"generic" },
+    { "type":"number", "name":"Gmsh/Physical group 1/Number", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ 1 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"number", "name":"Gmsh/Physical group 2/Dimension", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ 2 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"string", "name":"Gmsh/Physical group 2/Name", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ "port" ] , "kind":"generic" },
+    { "type":"number", "name":"Gmsh/Physical group 2/Number", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ 2 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"number", "name":"Gmsh/Physical group 3/Dimension", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ 2 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"string", "name":"Gmsh/Physical group 3/Name", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ "midrange" ] , "kind":"generic" },
+    { "type":"number", "name":"Gmsh/Physical group 3/Number", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ 3 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"number", "name":"Gmsh/Physical group 4/Dimension", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ 2 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"string", "name":"Gmsh/Physical group 4/Name", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ "tweeter" ] , "kind":"generic" },
+    { "type":"number", "name":"Gmsh/Physical group 4/Number", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ 4 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"number", "name":"Gmsh/Physical group 5/Dimension", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ 2 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"string", "name":"Gmsh/Physical group 5/Name", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ "rigid_boundary" ] , "kind":"generic" },
+    { "type":"number", "name":"Gmsh/Physical group 5/Number", "changedValue":1, "visible":false, "readOnly":true, "clients":{ "Gmsh":0 }, "values":[ 5 ], "min":-1e+200, "max":1e+200, "step":0, "index":-1 },
+    { "type":"string", "name":"Gmsh/}Input files", "changedValue":31, "visible":true, "readOnly":true, "attributes":{ "AutoCheck":"0" }, "clients":{ "Gmsh":0 }, "values":[ ".\mesh\automated_mesh.msh" ] , "kind":"file", "choices":[ "C:\Users\Liam Holland\AppData\Roaming/gmshrc", ".\mesh\automated_mesh.msh" ] },
+    { "type":"string", "name":"ONELAB/Action", "changedValue":0, "visible":false, "readOnly":false, "attributes":{ "Persistent":"1" }, "values":[ "compute" ] , "kind":"generic" },
+    { "type":"string", "name":"ONELAB/Button", "changedValue":3, "visible":false, "readOnly":false, "attributes":{ "Persistent":"1" }, "clients":{ "Gmsh":0 }, "values":[ "" ] , "kind":"generic" }
+  ] }
+}
